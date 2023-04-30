@@ -4,7 +4,8 @@ Basic python scripts for formatting samples or MIDI to the Disting Mk4 eurorack 
 Currently only supports converting files for the multisample audio algorithms J-2 and J-6
 
 **Requries FFMPEG**
-https://ffmpeg.org/download.html
+- Install link: https://ffmpeg.org/download.html
+- Make sure `ffmpeg` is in your path since this uses `subprocess.call()` to run FFMPEG from the CLI
 
 ## Summary
 Whipped this up quickly and will add to it. Right now it supports converting certain files downloaded
