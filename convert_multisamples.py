@@ -95,7 +95,7 @@ class DistingConvertor:
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print("Usage: python convertToDisting.py [arg]")
+        print("Usage: python convert_multisamples.py [arg]")
     else:
         folder = sys.argv[1]
         disting_convertor = DistingConvertor(folder)
